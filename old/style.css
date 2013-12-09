@@ -1,0 +1,819 @@
+body {
+	background-color: #FFFFFF;
+	font-family: 'Questrial', sans-serif;
+	font-size: 14px;
+	color: #000000; 
+}
+p {
+	font-family: 'Questrial', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+a:link, a:visited, a:active {
+	font-family: 'Questrial', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	text-decoration : none;
+}
+a:hover {
+	font-family: 'Questrial', sans-serif;
+	font-size: 14px;
+	color: #555555;
+	text-decoration : none;
+}
+a.nav:link, a.nav:visited, a.nav:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #490502;
+	text-decoration : none;
+    font-size: 14px;
+	font-weight: bold;
+}
+a.nav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration : none;
+    font-size: 14px;
+}
+a.mainnav:link, a.mainnav:visited, a.mainnav:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FBCC64;
+	text-decoration : none;
+    font-size: 14px;
+	font-weight: bold;
+}
+a.mainnav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration : none;
+    font-size: 14px;
+	font-weight: bold;
+}
+a.adminnav:link, a.adminnav:visited, a.adminnav:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #490502;
+	text-decoration : none;
+    font-size: 14px;
+font-weight: bold;
+}
+a.adminnav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration : none;
+    font-size: 14px;
+}
+a.sidenav:link, a.sidenav:visited, a.sidenav:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6F1105;
+	text-decoration : none;
+    font-size: 12px;
+}
+a.sidenav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration : none;
+    font-size: 12px;
+}
+a.sidebarLink:link, a.sidebarLink:visited, a.sidebarLink:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #900514;
+	font-weight: bold;
+	text-decoration : underline;
+}
+a.sidebarLink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+a.sidebarLinkSmall:link, a.sidebarLinkSmall:visited, a.sidebarLinkSmall:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #900514;
+	text-decoration : underline;
+}
+a.sidebarLinkSmall:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+a.btt:link, a.btt:visited, a.btt:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000099;
+	text-decoration : none;
+    font-size: 10px;
+}
+a.btt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration : none;
+    font-size: 10px;
+}
+a.results:link, a.results:visited, a.results:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #490502;
+	text-decoration : underline;
+    font-size: 12px;
+}
+a.results:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #01003B;
+	text-decoration : underline;
+    font-size: 12px;
+}
+a.sale:link, a.sale:visited, a.sale:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: maroon;
+	text-decoration : underline;
+}
+a.sale:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration : underline;
+}
+a.headingLink:link, a.headingLink:visited, a.headingLink:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000099;
+	text-decoration : underline;
+}
+a.headingLink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000099;
+	text-decoration : underline;
+}
+a.dottedSmall:link, a.dottedSmall:visited, a.dottedSmall:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+a.dottedSmall:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+a.dotted:link, a.dotted:visited, a.dotted:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+a.dotted:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+a.text2_dotted:link, a.text2_dotted:visited, a.text2_dotted:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+a.text2_dotted:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+
+a.goldLink:link, a.goldLink:visited, a.goldLink:active {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FDCA61;
+}
+
+a.goldLink:hover {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : none;
+	color : #FFE566;
+}
+a.whiteLink:link, a.whiteLink:visited, a.whiteLink:active {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight: bold;
+	color : #000000;
+	text-decoration: none;
+}
+a.whiteLink:hover {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight: bold;
+	text-decoration : underline;
+	color : #000000;
+}
+a.small:link, a.small:visited, a.small:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000099;
+	text-decoration : underline;
+}
+a.small:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #01003B;
+	text-decoration : underline;
+}
+a.small_underline:link, a.small_underline:visited, a.small_underline:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000099;
+	text-decoration : underline;
+}
+a.small_underline:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #01003B;
+	text-decoration : underline;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #712B00;
+}
+.profilename {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FBCC64;
+}
+.section {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+.text1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #900514;
+	font-weight: bold;
+
+}
+a.text1:link, a.text1:visited, a.text1:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #900514;
+	font-weight: bold;
+}
+a.text1:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.text2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.text3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #800080;
+	font-weight: bold;
+}
+.text4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.text5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.text6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+a.text6:link, a.text6:visited, a.text6:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+a.text6:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #111111;
+	font-weight: bold;
+}
+.text7 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B0082;
+}
+.text8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.text9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.text10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+.error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: darkred;
+}
+a.imageLink:link, a.imageLink:visited, a.imageLink:active, a.imageLink:hover {
+	color: #000000;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+.headingPurple {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4B0082;
+}
+.headingMaroon {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #900514;
+}
+.headingBlue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000EE;
+}
+.blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #0000FF;
+	font-weight: bold;
+}
+.subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #712B00;
+	font-weight: bold;
+	font-variant: normal;
+}
+.subMaroon {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900514;
+	font-weight: bold;
+	font-variant: normal;
+}
+.extra {
+	font-size: 16px;
+}
+.large {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #AB7E29;
+	font-variant: normal;
+	font-weight: bolder;
+	font-style: normal;
+}
+.sidebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F6DCA5;
+	padding-right: 12px;
+}
+.sidebarBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFCC66;
+	font-weight: bold;
+	padding-right: 8px;
+
+}
+.hr {
+	color: #AB7E29;
+}
+.select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.mainnav-nolink {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FBCC64;
+	text-decoration : none;
+    font-size: 12px;
+	font-weight: bold;
+}
+.pageTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.adminHeading {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: bold;
+}
+.toolbarTime {
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 12px;
+	color : #000000;
+}
+.toolbarTimeSmall {
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 9px;
+	color : #000000;
+}
+.newUsers {
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 12px;
+	color : #000000;
+}
+a.newUsers:link, a.newUsers:visited, a.newUsers:active {
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 12px;
+	color : #000000;
+}
+a.newUsers:hover {
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 12px;
+	color : #000000;
+}
+.dropdown {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a.textDotted {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+
+a.textDotted:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none; 
+}
+
+.textbox {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.tiny {
+	font-family : Arial;
+	font-size: 2px;
+}
+.white {
+	color: #000000;
+}
+.testimonial {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #551400;
+}
+.testimonialtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #000000;
+	line-height: 18px;
+}
+.widget {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #900514;
+	line-height: 18px;
+
+}
+.widgetBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #561501;
+	font-weight: bold;
+}
+td.l {
+	border-right: 0px;
+}
+td.r {
+	border-left: 0px;
+}
+td.allBorder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.topBottomBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.topBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.bottomBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.leftRightBorder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.rightBorder {
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.leftBorder {
+	border-right: 0px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #000000;
+}
+td.main_rightBar {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #ECD9B0;
+}
+td.light_leftRightBottomBorder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.bottom-light_leftRightBorder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #777777;
+}
+td.bottom-light_rightBorder {
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #777777;
+}
+}
+td.topBottom-light_leftRightBorder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #777777;
+}
+td.topBottom-light_rightBorder {
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #777777;
+}
+rder {
+	border-right: 1px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_rightBorder {
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_rightBottomBorder {
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 1px; 
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_leftBorder {
+	border-right: 0px;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_topBottomBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_topBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+td.light_bottomBorder {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+/* default setup that everything sees */
+.shadow {
+  /* needed for Internet explorer */
+  height: 1em;
+  filter: Shadow(Color=#000000, 
+                 Direction=135, 
+                 Strength=5);
+
+  /* Needed for Gecko */
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+/* 
+ * used by browsers which know about
+ * :before to create the shadow 
+ */
+.shadow:before {
+  display: block;
+  margin: 0 0 -2.12em 0.15em;
+  padding: 0;
+  color: #000000; 
+}
+
+#shadow_menu1:before { 
+  content: 'Home'; 
+}
+#shadow_menu2:before { 
+  content: 'News'; 
+}
+#shadow_menu3:before { 
+  content: 'Bio'; 
+}
+#shadow_menu4:before { 
+  content: 'C.V.'; 
+}
+#shadow_menu5:before { 
+  content: 'Press'; 
+}
+#shadow_menu6:before { 
+  content: 'Links'; 
+}
+#shadow_menu7:before { 
+  content: 'Contact'; 
+}
+#shadow_title1:before { 
+  content: 'Kim Dayman'; 
+}
+#shadow_title2:before { 
+  content: 'Artist & Craftsperson'; 
+}
+
+/*\*/
+html*.shadow {
+
+  [color:red;/* required by Safari 
+              * so that [] is correctly
+              * begun. associated with
+              * the property, yet hiding
+              * it. Seen by IE6 */
+
+    /* 
+     * seen by IE6 and Safari, but hidden
+     * from Gecko 
+     */
+    text-shadow: #000000 5px 5px 5px; 
+
+  ]color:auto; /* resets color for IE6 */
+}/**/
+
+/* 
+ * end hack using dummy attribute selector
+ * for IE5 mac
+ */
+.dummyend[id]{clear: both;}
+
+/*\*/
+html*.shadow:before {
+
+  [color:red;/* required by Safari. 
+                seen by IE6 */
+
+    /* 
+     * seen by IE6 and Safari, but hidden
+     * from Gecko 
+     */
+    display: none;
+
+  ]color:auto; /* resets color for IE6 */
+}/**/
+
+/* 
+ * end hack using dummy attribute selector
+ * for IE5 mac
+ */
+.dummyend[id]{clear: both;}

@@ -1,0 +1,98 @@
+body {
+margin: 0px 0px 0px 0px;
+}
+
+.shadow {
+text-shadow: 2px 2px 2px #888;
+}
+
+.whiteShadow {
+text-shadow: 10px 10px 10px #FFF;
+}
+
+.menu {
+font-family: 'Overlock', cursive;
+font-size: 24px;
+text-shadow: 2px 2px 2px #888;
+text-decoration: none;
+color: #000;
+}
+
+.menuActive {
+font-family: 'Overlock', cursive;
+font-size: 24px;
+text-shadow: 2px 2px 2px #666;
+text-decoration: none;
+color: #000;
+}
+
+.cv {
+font-family: 'Overlock', cursive;
+color: #000;
+}
+
+.text {
+font-family: 'Overlock', cursive;
+color: #000;
+font-size: 15px;
+}
+
+  #container {
+    width: 100%;
+    padding:0;
+    display: table;
+    border: 0px solid black;
+    }
+
+  #row  {
+    display: table-row;
+    }
+
+  #left {
+	font-family: 'Overlock', cursive;
+	color: #000;
+	font-size: 15px;
+    width:70%;
+    padding:0;
+    display: table-cell;
+    }
+
+  #right {
+	font-family: 'Overlock', cursive;
+	color: #000;
+	font-size: 15px;
+    width:30%;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    }
+
+  #middle {
+    padding: 10px;
+    width: 280px;
+    display: table-cell;
+    }
+
+    /* IE ONLY */
+  * html #container {
+    background:yellow url("red.gif") top left repeat-y;
+    }
+  * html #row {
+    background:url("blue.gif") top right repeat-y;
+    }
+  * html #left {
+    float:left;
+    }
+  * html #right {
+    float:right;
+    }
+  * html #middle {
+    float: left;
+    }
+  * html .cleaner {
+    display:block;
+    }
+
+/* ]]> */
+
+div#accordion { font-size: 16px; }  
